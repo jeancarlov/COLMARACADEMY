@@ -23,6 +23,8 @@ header {
   justify-content: space-between;
 }
 
+
+
 .business-title{
   text-align: left;
   display: inline-flex;
@@ -64,8 +66,6 @@ header {
   display:none;
 }
 
-
-
 /* banner */
 
 .banner{
@@ -106,6 +106,7 @@ header {
 .banner-mobile{
   display: none;
 }
+
 
 
 /*company info*/
@@ -153,7 +154,6 @@ header {
 
  .info-img{
   margin: 16px;
-  /*border: 2px solid green;*/
 }
 
 .info-img img{
@@ -198,7 +198,7 @@ header {
 }
 
 .program{
-  /*border: 2px solid green;*/
+
   display: flex;
   flex-direction: column;
   width: 25%;
@@ -238,35 +238,11 @@ header {
   color: #373737;
 }
 
-/*PROGRAMS SECTION MOBILE*/
-@media only screen and (max-width: 480px){
-.programs{
-  display: none;
-}
-.programs-mob{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: #C0B283;
-
-}
-.program-text-mob:hover{
-  background-color: #DCD0C0;
-  color: #373737;
-}
-.program-text-mob{
-  margin-bottom: 8px;
-  background-color: #F4F4f4;
-}
-
-}
-
 /*Thesis Exhibit*/
 
 
 .thesis-exhibit h1{
   text-align: center;
-  /*margin: 32px 0;*/
   color: #373737;
   font-size: 2rem;
   font-family: serif;
@@ -335,22 +311,7 @@ header {
 .thesis-exhibit-mob{
   display: none;
 }
-@media only screen and (max-width: 480px){
-  .thesis-exhibit{
-    display: none;
-  }
-  .thesis-exhibit-mob{
-    display: flex;
-    flex-direction: column;
-  }
-  .thesis-exhibit-mob h1{
-    text-align: center;
-  }
-  .thesis-video-mob video{
-    width: 100%;
-  }
 
-}
 
 /*BEGIN FOOTER*/
 
@@ -360,7 +321,6 @@ footer{
 .footer{
   display: flex;
   flex-direction: row;
-  /*border: 3px solid green;*/
   justify-content: space-between;
   height: 5rem;
   align-items: center;
